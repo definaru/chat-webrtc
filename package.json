@@ -1,0 +1,23 @@
+{
+  "name": "janus-test",
+  "version": "1.0.0",
+  "description": "Running Janus Room",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "janus",
+    "WebRTC"
+  ],
+  "author": "iQ_Solution <work.dev.ai@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "detect-node": "^2.1.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
